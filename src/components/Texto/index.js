@@ -1,8 +1,8 @@
 import { StyleSheet, Text } from "react-native";
 
-export default function Texto ({children, style}) {
+export default function Texto({ children, style }) {
     let estilo = estilos.Texto
-    if(style.fonWeight === 'bold') {
+    if (style.fonWeight === 'bold') {
         estilo = estilos.textoNegrito;
     }
     return <Text style={[style, estilo]}>{children}</Text>
