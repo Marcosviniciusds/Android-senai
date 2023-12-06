@@ -2,7 +2,7 @@ import { FlatList, StyleSheet, View } from 'react-native';
 import Topo from './components/Topo';
 import Detalhes from './components/Detalhes';
 import Texto from '../components/Texto';
-import Item from './components/item';
+import Item from './components/Item';
 
 
 export default function Cesta({ topo, detalhes, itens }) {
